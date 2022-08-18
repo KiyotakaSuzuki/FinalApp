@@ -145,7 +145,7 @@ txt2tags==3.7
 typing_extensions==4.1.1
 tzdata==2022.1
 tzlocal==4.2
-unroll @ file:///Users/kyoto2iko/Library/CloudStorage/OneDrive-%E5%80%8B%E4%BA%BA%E7%94%A8/FINAL%20APP/unroll
+unroll==0.1.0
 urllib3==1.26.4
 validators==0.20.0
 vision==1.0.0
