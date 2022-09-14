@@ -52,7 +52,7 @@ if img_file is not None:
         st.pyplot(fig)
         
         # 1番目のkeywordをwikipediaで調べる
-        st.write('Let’s clarify the details by Wikipedia！')
+        st.write('Let’s find out the details by Wikipedia！')
         n_top = 1
         for result in results[:n_top]:
             url = "https://en.wikipedia.org/wiki/"+ result[0]
