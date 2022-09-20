@@ -17,18 +17,18 @@ def get_device(use_gpu):
 device = get_device(use_gpu=True)
 
 #モデルの作成
-#model = torchvision.models.resnet152(weights='IMAGENET1K_V1').to(device)  
-#with open("imagenet_classes.txt") as f: 
-    #classes = [line.strip() for line in f.readlines()]
+model = torchvision.models.resnet152(weights='IMAGENET1K_V1').to(device)  
+with open("imagenet_classes.txt") as f: 
+    classes = [line.strip() for line in f.readlines()]
     
 #model = torchvision.models.alexnet(weights='IMAGENET1K_V1').to(device)  
 #with open("imagenet_classes.txt") as f: 
     #classes = [line.strip() for line in f.readlines()]
 #model.eval()
 
-model = torchvision.models.efficientnet_v2_l(weights='IMAGENET1K_V1').to(device)  
-with open("imagenet_classes.txt") as f: 
-    classes = [line.strip() for line in f.readlines()]
+#model = torchvision.models.efficientnet_v2_l(weights='IMAGENET1K_V1').to(device)  
+#with open("imagenet_classes.txt") as f: 
+    #classes = [line.strip() for line in f.readlines()]
         
 
 #前処理（トランスフォーム作成）
