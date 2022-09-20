@@ -8,7 +8,7 @@ from model import predict
 st.set_option("deprecation.showfileUploaderEncoding", False)
 
 st.sidebar.title("1K Classifer(Dictionary)")
-st.sidebar.write("Using Resnet 152 to determine what the image is......")
+st.sidebar.write("Using EfficientNet_V2_L to determine what the image is......")
 import streamlit as st
 
 
