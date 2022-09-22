@@ -17,7 +17,7 @@ def get_device(use_gpu):
 device = get_device(use_gpu=True)
 
 #モデルの作成
-model = torchvision.models.resnet152(weights='IMAGENET1K_V2').to(device)  
+model = torchvision.models.resnet152(pretrained=True).to(device)  
 with open("imagenet_classes.txt") as f: 
     classes = [line.strip() for line in f.readlines()]
     
